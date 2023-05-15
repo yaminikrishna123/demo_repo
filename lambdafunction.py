@@ -36,7 +36,7 @@ def lambda_handler(event, context):
             line = next(f)
                     Record={'Data': line})
         print("sent to firehose")
-    return send_response({"status": "Yamini"})
+    return send_response({"status": "Yamini_krishna"})
     
 
 
